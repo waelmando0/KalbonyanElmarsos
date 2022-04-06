@@ -1,5 +1,17 @@
 ## Programming Foundations Fundamentals
 
+## Learning objectives
+<ul>
+  <li>Writing source code</li>
+  <li>Basic statements and expressions</li>
+  <li>Working with numbers and strings</li>
+  <li>Writing conditional code</li>
+  <li>Increasing your efficiency with functions</li>
+  <li>Working with comments</li>
+  <li>Making decisions in code</li>
+  <li>Learning about other languages</li>
+</ul>
+
 ### Programming Basics
 <details>
   <summary><strong>What is programming?</strong></summary>
