@@ -9,5 +9,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 [3] - [Programming Foundation: Object Oriented Design](https://github.com/waelmando0/KalbonyanElmarsos/tree/master/Linkedin-Learning/Programming-Foundation-Object-Oriented-Design)
 
+[5] - [Programming Foundations: Data Structures](https://github.com/waelmando0/KalbonyanElmarsos/tree/master/Linkedin-Learning/Programming-Foundations-Data-Structures)
+
 
 <!-- <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-24h27m-blue"> -->

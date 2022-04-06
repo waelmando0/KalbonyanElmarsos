@@ -1,4 +1,4 @@
-### Challange
+### Challenge
 
 <details>
     <summary><strong>Quiz 1</strong></summary>
