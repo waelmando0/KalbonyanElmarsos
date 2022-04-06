@@ -1,6 +1,6 @@
 ## Programming Foundations Fundamentals
 
-## Learning objectives
+### Learning objectives
 <ul>
   <li>Writing source code</li>
   <li>Basic statements and expressions</li>
