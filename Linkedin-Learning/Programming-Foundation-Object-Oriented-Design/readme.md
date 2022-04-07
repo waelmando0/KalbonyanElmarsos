@@ -43,7 +43,7 @@
 </details>
 <details>
 		<summary><strong>Classes</strong></summary>
-		<strong>Class: </strong>is a template for the object
+		<strong>Class: </strong>code-template for creating program objects
 		<br>
 		<br>
 		<strong>Class Components</strong>
@@ -145,6 +145,9 @@ Feel = new Feel(3, "white", false)
 		<summary><strong>Encapsulation</strong></summary>
 		<strong>Encapsulation:</strong> is the packing of data and functions into one component (for example, a class) and then <strong>controlling access to that component to make a "blackbox" out of the object.</strong>
 		<br>
+		the purpose of encapsulation is to protect an object from unwanted changes
+		<br>
+		<strong>to protect an object from unwanted changes to have access to the that data you should use methods that object have setter method or getter method that you define</strong>
 		<br>
         to make sure that "sensitive" data is hidden from users. To achieve this, you must declare class variables/attributes as private (cannot be accessed from outside the class). If you want others to read or modify the value of a private member, you can provide public get and set methods.
 		<br>
@@ -185,6 +188,8 @@ bmw.getFuelPercentage()
 		<summary><strong>Abstraction</strong></summary>
 		<strong>Abstraction: </strong>main goal is to handle complexity by hiding unnecessary details from the user.
         <br>
+		Abstraction means we focus on the essential qualities of something rather than one specific example. By using abstraction, we automatically discard what's unimportant or irrelevant.
+		<br>
         Hiding unnecessary details and functionalities and only showing what is important to work is an abstraction.
         <br>
         <br>
@@ -226,6 +231,8 @@ bmw.getFuelPercentage()
 		<strong>Why And When To Use "Inheritance"?</strong>
 		<br>
         <strong>It is useful for code reusability:</strong> reuse attributes and methods of an existing class when you create a new class.
+		<br>
+		Multiple Inheritance: mean one child has more than father it's not good and not supported in all the language
 </details>
 <details>
 		<summary><strong>Polymorphism</strong></summary>
@@ -275,7 +282,7 @@ brew(coffee, tea, water) → cupOfSomething
 			<li>2. Describe the application ( Plain text of how the people will use it)</li>
 			<li>3. Identify the main object (The start point of making the classes)</li>
 			<li>
-				1. Describe the interactions between them
+				4. Describe the interactions between them
 				<ul>
 					<li>1. Understanding each object responsibilities.</li>
 					<li>2. The behaviors they need to have.</li>
