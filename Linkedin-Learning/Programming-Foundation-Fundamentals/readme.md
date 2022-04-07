@@ -12,19 +12,19 @@
         </ol>
       </li>
       <li>
-        <strong>Bug:</strong> Something unexpected happens.
+        <strong>Bug:</strong> When Something unexpected happens in your program.
       </li>
       <li>
-        <strong>Crash:</strong> Stops early or freezes.
+        <strong>Crash:</strong> When your program stops early or freezes.
       </li>
     </ul>
 </details>
 
 <details>
   <summary><strong>What is a programming language?</strong></summary>
-  <h4>Each Language has:</h4>
+  <h4>Each programming language have syntax and semantic</h4>
   <ul>
-    <li><strong>Syntax</strong> ⇒ Rules</li>
+    <li><strong>Syntax</strong> ⇒ Rules of a programming language</li>
     <li><strong>Semantics</strong> ⇒ Meaning</li>
   </ul>
 
@@ -80,6 +80,7 @@
 
 <details>
   <summary><strong>Basic Statements & Expressions</strong></summary>
+  <strong>Statements</strong> are the building blocks of any program and are the individual actions that you want your program to take.
   <br>
   <strong>Program:</strong> number of statements (Keywords - Expressions - Operators)
   <br>
@@ -87,13 +88,14 @@
   <br>
   <br>
   <strong>Arithmetic Operators:</strong>
-  Addition
-- Subtraction
-- Multiplication
-- Division
-- Modulus
-- Exponentiation
-- Floor division
+  <ul>
+    <li>Addition [+]</li>
+    <li>Subtract [-]</li>
+    <li>Multipli [*]</li>
+    <li>Division [/]</li>
+    <li>Modulus  [%]</li>
+    <li>Exponent [**]</li>
+  </ul>
 </details>
 <details>
 
@@ -101,9 +103,9 @@
   <br>
   <strong>We have three types of errors:</strong>
   <ul>
-    <li><strong>Syntax:</strong> you somehow broke the rules of the language.</li>
-    <li><strong>Runtime:</strong> the computer was unable to execute a portion of your code.</li>
-    <li><strong>Semantic:</strong> the output of the program is not what you expected.</li>
+    <li><strong>Syntax Error:</strong>when writing a code that break the rules of the language such as forgetting the quotation mark around the string.</li>
+    <li><strong>Runtime Error:</strong>when the computer is not able to execute your code like when you divide by zero</li>
+    <li><strong>Semantic Error:</strong>when the output of the program is not what you expected</li>
   </ul>
 </details>
 
@@ -150,6 +152,30 @@
 <details>
   <summary><strong>Conditional or Boolean Expression</strong></summary>
   Any expression that breaks down to either true or false
+
+```
+Relation operators
+  operand1 (operator) operand2  => True/False
+
+Equality operator
+  operand1 == operand2  => True/False
+
+UnEquality operator
+  operand1 != operand2  => True/False
+
+Greater than operator
+  operand1 > operand2  => True/False
+
+Less than operator
+  operand1 < operand2  => True/False
+
+Greater than or equal operator
+    operand1 >= operand2  => True/False
+
+
+Less than or equal operator
+    operand1 <= operand2  => True/False
+```
 </details>
 
 <details>
@@ -199,5 +225,5 @@ Keywords - Expressions - Operators
 </details>
 <details>
   <summary><strong>Function </strong></summary>
-Block of code packaged together with a name
+Block of code ckaged together with a name
 </details>
