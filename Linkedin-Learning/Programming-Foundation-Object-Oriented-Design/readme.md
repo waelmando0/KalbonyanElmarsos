@@ -338,11 +338,13 @@ brew(coffee, tea, water) → cupOfSomething
 		<br>
 		Figure out what your application or product needs to do.
 		<br>
+		<br>
 		<strong>Requirements</strong> = what does the program need to do ?
 		<br>
 		what is the problem you are trying to solve ?
 		<br>
 		why are you building the program in the first place?
+		<br>
 		<br>
 		<strong>Funcational Requirements:</strong> = What must it do?
 		<br>
@@ -374,9 +376,10 @@ brew(coffee, tea, water) → cupOfSomething
 
 <details>
 		<summary><strong>FURPS+ requirements</strong></summary>
-		<strong>FURPS</strong>One commonly used model for classifying software quality attributes
+		<strong>FURPS</strong> One commonly used model for classifying software quality attributes
 		<br>
 		FURPS serves as a checklist of several key qualities to consider when determining requirements.
+		<br>
 		<br>
 		<strong>FURPS refer to </strong>
 		<ul>
