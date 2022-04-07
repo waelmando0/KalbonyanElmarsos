@@ -6,6 +6,8 @@
 	<strong>collection</strong>: Grouping multiple items together and storing them with a single name, called a variable
 	By using a collection, the very structure of your code is indicating that multiple pieces of data are related.
 	<br>
+    <strong>The advantages of using collections</strong>
+	<br>
 	<ul>
 		<li>Uses your code structure to indicate that multiple pieces of data are related</li>
 		<li>Avoids creating a potentially huge number of variables to track within our code</li>
@@ -28,27 +30,40 @@
 	<br>
 </details>
 <details>
-	<summary><strong>Creating Collections</strong></summary>
+	<summary><strong>Creating Collections Example</strong></summary>
 
 ```
-# Simple Example
+# the first kind of collection is the list
+# this is the syntax
 
-country = [
+friends = ["wes", "kait", "snnekers"]
+
+country1 = [
     'egypt',
     'syria',
     'palestine',
     'turkey',
 ]
+
+country2 = [
+    'turkey',
+    'spain',
+    'germany',
+    'brazil',
+
 ```
 
 ```
-#  Complex Example
+# the second kind of the collection is the dictionary or the hash table
+# each for each item there is a key or label and a value
+# key  :  value
 
-california_symbols = [
+california_symbols = {
     'bird': 'California quail',
     'animal': 'Grizzly bear',
     'flower': 'California poppy',
-]
+    'fruit': 'Avocado',
+}
 ```
 </details>
 <details>
