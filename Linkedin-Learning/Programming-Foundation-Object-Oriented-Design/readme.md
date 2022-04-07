@@ -145,9 +145,11 @@ Feel = new Feel(3, "white", false)
 		<summary><strong>Encapsulation</strong></summary>
 		<strong>Encapsulation:</strong> is the packing of data and functions into one component (for example, a class) and then <strong>controlling access to that component to make a "blackbox" out of the object.</strong>
 		<br>
+		<br>
 		the purpose of encapsulation is to protect an object from unwanted changes
 		<br>
 		<strong>to protect an object from unwanted changes to have access to the that data you should use methods that object have setter method or getter method that you define</strong>
+		<br>
 		<br>
         to make sure that "sensitive" data is hidden from users. To achieve this, you must declare class variables/attributes as private (cannot be accessed from outside the class). If you want others to read or modify the value of a private member, you can provide public get and set methods.
 		<br>
@@ -231,6 +233,7 @@ bmw.getFuelPercentage()
 		<strong>Why And When To Use "Inheritance"?</strong>
 		<br>
         <strong>It is useful for code reusability:</strong> reuse attributes and methods of an existing class when you create a new class.
+		<br>
 		<br>
 		Multiple Inheritance: mean one child has more than father it's not good and not supported in all the language
 </details>
@@ -331,12 +334,22 @@ brew(coffee, tea, water) → cupOfSomething
 ### Requirements
 <details>
 		<summary><strong>Defining Requirements</strong></summary>
-		<strong>Requirements</strong> = What does it need to do?
+		The first step to any design process is to gather your requirements.
 		<br>
+		Figure out what your application or product needs to do.
+		<br>
+		<strong>Requirements</strong> = what does the program need to do ?
+		<br>
+		what is the problem you are trying to solve ?
+		<br>
+		why are you building the program in the first place?
 		<br>
 		<strong>Funcational Requirements:</strong> = What must it do?
 		<br>
-		The system must:
+		the application must do ......
+		<br>
+		<br>
+		Example: The system must:
 		<ul>
 			<li>Heat meals in space-packaging</li>
 			<li>Allow users to set a timer for the meal</li>
@@ -361,41 +374,63 @@ brew(coffee, tea, water) → cupOfSomething
 
 <details>
 		<summary><strong>FURPS+ requirements</strong></summary>
-		<strong>FURPS</strong>
+		<strong>FURPS</strong>One commonly used model for classifying software quality attributes
+		<br>
+		FURPS serves as a checklist of several key qualities to consider when determining requirements.
+		<br>
+		<strong>FURPS refer to </strong>
 		<ul>
 			<li>
-				<strong>Functionality: </strong>Capability, Reusability, Security
+				<strong>Functionality: </strong>the Features of the app
 				<br>
-				the Features of the app
+				Capability, Reusability, Security
 			</li>
 			<br>
 			<li>
-				<strong>Usability: </strong>Human Factors, Aesthetics, Consistency, Documentation
+				<strong>Usability: </strong>what affect the person who will use the app?
 				<br>
-				what affect the person who will use the app? Is it easy on the eyes?
-			</li>
-			<br>
-			<li>
-				<strong>Reliability: </strong>Availability, Failure Rate & Duration, Predictability
+				Is it easy on the eyes?
 				<br>
-				How Much system downtime is acceptable? Is system can be recovered?
+				 Is it intuitive to use?
+				<br>
+ 				Is the documentation accurate and complete?
+				<br>
+				Human Factors, Aesthetics, Consistency, Documentation
 			</li>
 			<br>
 			<li>
-				<strong>Performance: </strong>Speed, Efficiency, Resource, Consumption, Scalability
+				<strong>Reliability: </strong>How Much system downtime is acceptable? Is system can be recovered?
+				<br>
+				Availability, Failure Rate & Duration, Predictability
 			</li>
 			<br>
 			<li>
-				<strong>Supportability: </strong>Testability, Extensibility, Serviceability, Configurability
+				<strong>Performance: </strong> dictate the application's response time through put.
+				<br>
+  				And they put limits on the system resources it can use. In supportability.
+  				<br>
+				Speed, Efficiency, Resource, Consumption, Scalability
+			</li>
+			<br>
+			<li>
+				<strong>Supportability: </strong>  Make sure the application can be tested, extended, serviced and installed and configured.
+				<br>
+				Testability, Extensibility, Serviceability, Configurability
 			</li>
 		</ul>
 		<br>
 		<strong>FURPS+</strong>
 		<ul>
-			<li><strong>Design: </strong>constraints on how the application is built.</li>
-			<li><strong>Implementation: </strong>the language in which the application is built</li>
-			<li><strong>Interface: </strong>Communication with other devices is a common need.</li>
-			<li><strong>Physical: </strong>the hardware on which the application must run.</li>
+			<li><strong>Design: </strong>constraints on how the software must be built because the app requires certain things such as a relational database.</li>
+			<li>
+				<strong>Implementation: </strong> Does it have to be written in a certain language?<br>
+				Are there standards or methodologies that need to be followed?</li>
+			<li>
+				<strong>Interface: </strong>Communication with other devices is a common need.
+				<br>
+				refer to an external system that needs to be interfaced with.
+			</li>
+			<li><strong>Physical: </strong> related to the hardware on which the application must run or deplyed on.</li>
 		</ul>
 </details>
 <details>
