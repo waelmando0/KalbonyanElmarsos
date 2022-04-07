@@ -80,7 +80,9 @@
     <br>
     <br>
     1. For two integers a and b where a > b divide a by b
+    <br>
     2. If the remainder, r is 0 then stop: GCD is b
+    <br>
     3. Otherwise set a to b, b to r and repeat at step 1 untile r is 0
     <br>
     <table>
