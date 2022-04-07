@@ -130,7 +130,7 @@ print(peaks[Pancific])
 	<br>
 	<strong>In</strong>: Indicates that what follows is the set of values that we want to iterate through
 	<br>
-	When I iterate at list of items and didn't make an end point for the loop, It will ends with last item in the list
+    <strong>End point:</strong> When I iterate at list of items and didn't make an end point for the loop, It will ends with last item in the list
 	<br>
 
 ```
@@ -156,7 +156,7 @@ print("I will count to 200 by tens:")
 while i <= 200:
         print(i)
         i += 10
-print("Wo Hoo Donne =D")
+print("we're do it!!")
 ```
 </details>
 
