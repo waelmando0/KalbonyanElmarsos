@@ -68,6 +68,13 @@ california_symbols = {
 </details>
 <details>
 	<summary><strong>Collections in other languages</strong></summary>
+    in Python, each item in a list can be of any data type.
+    <br>
+    So you could combine strings, numbers, and other types of data like Boolean values, all in the same list.
+    <br>
+    But other languages, like C++, require that all values in this type of collection must be of the same data type.for instance, containing all strings or all numbers, but no combination of these or other types of data
+    <br>
+    <br>
 	<strong>Mutable</strong>
 	meaning that we can be changed the value of item existing
     <br>
