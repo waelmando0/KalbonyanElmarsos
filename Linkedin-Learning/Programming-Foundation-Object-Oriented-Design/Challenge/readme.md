@@ -1,7 +1,7 @@
 ### Challenge
 
 <details>
-		<summary><strong>Quiz 1 </strong></summary>
+		<summary><strong>Object-Oriented Fundamentals Quiz</strong></summary>
 		<strong>What is the difference between object-oriented programming and procedural programming?</strong>
 		<br>
 		Procedural programming specifies a sequence of tasks, but object-oriented programming describes the properties of tools or items.
@@ -133,7 +133,7 @@ an attribute
 	overloading
 </details>
 <details>
-	<summary><strong>Quiz 2</strong></summary>
+	<summary><strong>Requirements Quiz</strong></summary>
 	<strong>What is the first step in defining requirements for an application?</strong>
 	<br>
 	determining what the application must have and do
@@ -159,7 +159,7 @@ an attribute
 	interface: Communication with other devices is a common need.
 </details>
 <details>
-	<summary><strong>Quiz 3</strong></summary>
+	<summary><strong>Use Cases and User Stories Quiz</strong></summary>
 	<strong>When creating a use case diagram, what can you do to show each self-contained use case?</strong>
 	<br>
 	draw an ellipse around each use case
@@ -224,7 +224,7 @@ an attribute
 	What distinguishes primary actors?
 </details>
 <details>
-	<summary><strong>Quiz 4</strong></summary>
+	<summary><strong>Domain Modeling Quiz</strong></summary>
 	<strong>How can one avoid assigning too many responsibilities to a single object?</strong>
 	<br>
 	Require objects to take care of themselves to a greater extent.
@@ -272,7 +272,7 @@ an attribute
 	trumpet, leaf, and tree
 </details>
 <details>
-	<summary><strong>Quiz 5</strong></summary>
+	<summary><strong>Class Diagrams Quiz</strong></summary>
 	<strong>In which language is the following class specification written?</strong>
 
 ```
@@ -451,7 +451,7 @@ Which one will be called when a new person is created with the following command
 	Python does not have private or public variables.
 </details>
 <details>
-	<summary><strong>Quiz 6</strong></summary>
+	<summary><strong>Inheritance and Composition Quiz</strong></summary>
 	<strong>Which relationship is a good candidate for superclass and subclass?</strong>
 	<br>
 	utensil-fork
