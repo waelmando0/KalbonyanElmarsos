@@ -178,22 +178,6 @@ for fruit in fruits:
     print(fruit)
 ```
 </details>
-<details>
-	<summary><strong>Chapter Quiz</strong></summary>
-	<strong>Why would you create a loop in Python with the while keyword rather than the for keyword?</strong>
-    <br>
-	 The <strong>while</strong> keyword allows you to create a loop that continues until the program arrives at a certain state.
-	<br>
-	<br>
-	<strong>In Python, which keyword can you use to create a loop?</strong>
-	<br>
-	 In Python, you can use a `for` statement to loop through each item in a list.
-	<br>
-	<br>
-	<strong>What is another term for code that iterates?</strong>
-	<br>
-	 Code that iterates is often described as a loop, because the process moves from beginning to end and then starts over again at the beginning
-</details>
 
 ### External code
 <details>
@@ -254,21 +238,6 @@ def mult(x, y):
 	</ul>
 	<br>
 </details>
-<details>
-	<summary><strong>Chapter Quiz</strong></summary>
-	<strong>Why do developers sometimes use shared code in their programs?</strong>
-    <br>
-	 It can become tedious to have to rewrite code to solve the same problem over and over.
-    <br>
-	 Shared code is generally optimized to perform a basic programming task so other developers don't have to write the same code over and over.
-	<br>
-	<br>
-	<strong>How is a framework different from a library</strong>
-	<br>
-	 A framework essentially defines how you should accomplish a task.
-	<br>
-	 A framework gives you a structure to use as a starting point and customize.
-</details>
 
 ### Working with strings
 <details>
@@ -301,30 +270,30 @@ def mult(x, y):
 <br>
 <strong>Brackets [] - Character Sets</strong>
 
-* i     - Case Insensitive
-* g      - Global Search
-* m      - Multi Line Search
-* eh     - Brackets Character | Must be between eh
-* ^eh    - Brackets Not Character | Match anything expect eh
-* a-e    - Match any lowercase Letters
-* A-E    - Match any uppercase Letters
-* A-Zz-a - Match any letter
-* 0-9    - Range Number | Match any digit
-* ^0-9   - Not Range Number | Match anything digit expect
-* A-g    - Range [A-Z] Range[a-z]
-* 0-9a-z - Double Range
+* i      => Case Insensitive
+* g      => Global Search
+* m      => Multi Line Search
+* eh     => Brackets Character | Must be between eh
+* ^eh    => Brackets Not Character | Match anything expect eh
+* a-e    => Match any lowercase Letters
+* A-E    => Match any uppercase Letters
+* A-Zz-a => Match any letter
+* 0-9    => Range Number | Match any digit
+* ^0-9   => Not Range Number | Match anything digit expect
+* A-g    => Range [A-Z] Range[a-z]
+* 0-9a-z => Double Range
 
 
 <strong>Shorthand Character Classes</strong>
 
-* \w   -   Word Character (a-z, A-Z, 0-9, _)
-* \W   -   Not a Word Character.
-* \w+  -   + = one or more
-* \d   -   Any Digits (0-9)
-* \D   -   Not a Digit (0-9)
-* \d+  -   Match any digit 0 or more time
-* \s   -   Spaces of any kind. (space, tab, new line)
-* \S   -   It is not a Space, Tab or new line.
+* \w   =>   Word Character (a-z, A-Z, 0-9, _)
+* \W   =>   Not a Word Character.
+* \w+  =>   + = one or more
+* \d   =>   Any Digits (0-9)
+* \D   =>   Not a Digit (0-9)
+* \d+  =>   Match any digit 0 or more time
+* \s   =>   Spaces of any kind. (space, tab, new line)
+* \S   =>   It is not a Space, Tab or new line.
 </details>
 <details>
 	<summary><strong>Challenge: Strings</strong></summary>
@@ -358,6 +327,11 @@ print (km)
 	<summary><strong>Writing pseudocode</strong></summary>
     <strong>Pseudocode :</strong> writing a description of what you're trying to do using plain language
     <br>
+    Pseudo coding helps you create a basic outline of the program you're creating
+    <br>
+    Pseudo code  frees you from having to decide on a specific syntax to use or even a specific language. Instead, you simply describe what you need to accomplish.
+    <br>
+    When your pseudo code is done, you're left with an outline for your program, which you can then built out using a programming language.
 
 ```
 check if the user has entered a number
@@ -379,15 +353,6 @@ else:
     print("The square root of",number, "is: ",number * number)
 ```
 
-</details>
-<details>
-<summary><strong>Quiz</strong></summary>
-    <strong>What is the result of writing pseudocode for a program?</strong>
-    <br>
-    an outline for your program
-    <br>
-    Pseudocoding helps you create a basic outline for the program you’re creating. With pseudocode, you can begin to describe the structure of your program.
-    <br>
 </details>
 
 ### Input and Output
@@ -423,21 +388,6 @@ else:
     </ul>
 </details>
 -->
-<details>
-    <summary><strong>Quiz</strong></summary>
-    <strong>Which is an example of output?</strong>
-    <br>
-    saving data to a file
-    <br>
-    Output is where a program sends data once it has accomplished its work with the data.
-    <br>
-    <br>
-    <strong>Why might you display statements for the user indicating when processing starts and when output is complete?</strong>
-    <br>
-    if you want to let the user know where in the process the program is when a program takes a long time to run
-    <br>
-    Without feedback to the user, it can be unclear if a program is still working or has already finished.
-</details>
 
 ### Debugging
 <details>
@@ -509,26 +459,7 @@ plant_recommendation('medium')
 plant_recommendation('high')
 ```
 </details>
-<details>
-    <summary><strong>Quiz</strong></summary>
-    <strong>What is the goal of creating test cases?</strong>
-    <br>
-    to test all the possible cases that my code could encounter when it's used
-    <br>
-    A robust set of test cases should include tests for all the possible cases that your program could encounter.
-    <br>
-    <br>
-    <strong>What's the name of the IDE feature that finishes keywords or constructions for you after you start typing them?</strong>
-    <br>
-    autocompletion: Autocompletion literally offers to autocomplete your code when it thinks it recognizes what you're trying to type.
-    <br>
-    <br>
-    <strong>Which strategy can help you debug a program when it does not generate errors in the interpreter??</strong>
-    <br>
-    Think through your code from the computer's point of view.
-    <br>
-    A bug that doesn't result in an error message requires you to think about how the computer is viewing your code in order to understand what's going wrong.
-</details>
+
 
 ### Object Orientation
 <details>
@@ -621,27 +552,6 @@ Attendee3.displayAttendee()
 ```
 </details>
 
-<details>
-    <summary><strong>Quiz</strong></summary>
-    <strong>Why aren't all possible methods made available to every object?</strong>
-    <br>
-    to avoid overloading computer memory with unneeded methods
-    <br>
-    If all objects had access to all methods in the language, your programs would need more computer memory.
-    <br>
-    <br>
-    <strong>When do you need to use an object-oriented approach to coding?</strong>
-    <br>
-    when you start building bigger projects with more complex code
-    <br>
-    Object-oriented code is a strategy that helps you organize code when it starts to feel needlessly complex.
-    <br>
-    <br>
-    <strong>What is the object-oriented programming term for something that an object can do?</strong>
-    <br>
-    a method: Each object has behaviors, which are built using methods.
-</details>
-
 ### Advanced Topics
 <details>
     <summary><strong>Memory management across languages</strong></summary>
@@ -683,24 +593,4 @@ Attendee3.displayAttendee()
 <details>
     <summary><strong>Introduction to algorithms</strong></summary>
     <strong>Algorithm:</strong> A set of instructions to describe the exact result
-</details>
-<details>
-    <summary><strong>Quiz</strong></summary>
-    <strong>What is it called when a compiler keeps track of which items in memory are no longer needed and deletes them automatically?</strong>
-    <br>
-    garbage collection (Many common languages support garbage collection, which allows you to create programs without thinking about managing memory.)
-    <br>
-    <br>
-    <strong>What's an advantage of using multithreading?</strong>
-    <br>
-    It can make your computer programs faster and more responsive.
-    <br>
-    Structuring your code to do multiple things at once can increase a program's speed and responsiveness.
-    <br>
-    <br>
-    <strong>Which is the best description of what an algorithm is?</strong>
-    <br>
-    a set of instructions that describes how to get the exact result you want
-    <br>
-    Computers don't know how to accomplish a multistep process without a programmer explaining step-by-step how to do it.
 </details>
