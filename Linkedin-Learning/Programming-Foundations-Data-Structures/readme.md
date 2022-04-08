@@ -35,7 +35,7 @@
         <tr>
             <td> Short </td>
             <td> -32,768 to 32,767 </td>
-            <td> 64 bits </td>
+            <td> 16 bits </td>
         </tr>
         <tr>
             <td> Int </td>
@@ -44,7 +44,7 @@
         </tr>
             <tr>
             <td> Long </td>
-            <td> -(2) to 2 </td>
+            <td> -(2^63)  to (2^63) </td>
             <td> 64 bits </td>
         </tr>
     </table>
@@ -79,6 +79,16 @@
             <td>var myNum:Double = 10.24</td>
         </tr>
     </table>
+    <br>
+    <br>
+    <strong>signed and unsigned data</strong>
+    <br>
+    <ul>
+        <li><strong>signed data type</strong>can store the positive and negative numbers </li>
+        <li><strong>unsigned data type</strong>can store only the positive</li>
+    </ul>
+    <br>
+    byte is 8 bit => each byte can represent a letter
 </details>
 <details>
     <summary><strong>Boolean and Characters</strong></summary>
@@ -125,12 +135,21 @@
 </details>
 <details>
     <summary><strong>Introduction to data structures</strong></summary>
-    <strong>Data Structures:</strong> are containers they allow us to combine several pieces of data into a single structure
+    <strong>Data Structures:</strong>is a collection with defined way of accessing and sorting items is referenced data types.
+    <br>
+    are containers they allow us to combine several pieces of data into a single structure
+    <br>
+    - have a specialized way and format of organizing and storing these pieces.
+    - Data structures give us organization, storage, and access.
     <br>
     <br>
     <strong>Why use a data structure?</strong>
     <br>
     we could have created individual variables for every student and store the appropriate number of pets each student has in each variable
+    <br>
+    <strong>what exact size of data structure</strong>
+    <br>
+    depends allocated space for structure Number of piece of data size of each data piece
     <br>
     <ul>
         <li>int numberOfPetsForStudent1 = 0;</li>
@@ -150,7 +169,13 @@
 </details>
 <details>
     <summary><strong>Strings</strong></summary>
-    <strong>String</strong> is a sequence of characters it's data type that's buit out of another data type
+    <strong>String</strong>
+    <ul>
+        <li>Is a Referenced data type</li>
+        <li>Is a data type composed of a sequence of characters.</li>
+        <li>It's a data type that's built out of another data type.</li>
+        <li>Its implemented with a data structure</li>
+    </ul>
     <br>
     <br>
     <strong>String in javascript:</strong>
@@ -233,6 +258,8 @@ print(sum)
 var average = sum / numOfStudent
 print(average)
 ```
+<br>
+    every element in the array have an unique index the index start from 0
 </details>
 <details>
     <summary><strong>Multidimentional arrays</strong></summary>
@@ -256,6 +283,8 @@ print(average)
             <td>(1,2)</td>
         </tr>
     </table>
+    <br>
+     2d array is an array and every element in the array is an array itself The rule is that every inner array must have the same number of elements
 </details>
 <details>
     <summary><strong>Multidimentional arrays in javascript</strong></summary>
@@ -287,6 +316,10 @@ console.log(dinnerChoices)
 <details>
     <summary><strong>Jagged arrays</strong></summary>
     A jagged array can have elements of different dimensions and sizes
+    <br>
+    like multidimensional array but each inner array can have different number of elements
+    <br>
+    this means that if we're iterating through the array we'll need to access the length of each individual array because their sizes can be different.
 </details>
 <details>
     <summary><strong>Jagged arrays in C#</strong></summary>
@@ -410,11 +443,22 @@ for (int i = 0; i < array.length; i++) {
     <br>
     <ul>
         <li>Call sorting function to your collection of object</li>
+        <li>Pass your data structure as a parameter to a sorting function</li>
     </ul>
+    <br>
+    when sorting objects you must define which attribute the objects will be sorted accordingly  this called Defining a comparator to sort
 </details>
 <details>
     <summary><strong>Big O notation</strong></summary>
     <strong>Big O Notation</strong> Notation used to describe the performance or complexity of an algorithm
+    <br>
+    classifies performance as the input size grows
+    <br>
+    "O" indicate the order of operation: time scale to perform an operation
+    <br>
+    It usually describes the worst case scenario of how long it takes to perform a given operation.
+    <br>
+    Many algorithms and data structures have more than one O inserting data, searching for data, deleting data, etc.
     <br>
     <br>
     <strong>Operations</strong>
@@ -472,11 +516,48 @@ for (int i = 0; i < array.length; i++) {
 <details>
     <summary><strong>Operations on linked lists</strong></summary>
     <ul>
-        <li>Add</li>
-        <li>Access</li>
-        <li>Delete</li>
-        <li>Search</li>
+        <li>
+          <strong>Add</strong>
+          <br>
+           To add an item, it's easiest to insert at the back or front of the list.
+          <br>
+           When inserting at the front, we can initialize the new node with the appropriate data and set the new node's next pointer to point to the first node.
+          <br>
+           When inserting at the back of the list, we take the last node of the list and set its next pointer to our new node.
+          <br>
+        </li>
+        <li>
+            <strong>Access</strong>
+            <br>
+            To access an item, we don't have to have an index like we do with an array.
+            <br>
+            This means we have to follow the pointers until we find the item we want to access.
+        </li>
+        <li>
+            <strong>Delete</strong>
+            <br>
+            To delete an item, we first have to find the item and then, update the next pointer of the node preceding and following that node.
+        </li>
+        <li>
+            <strong>Search</strong>
+            <br>
+            to search for an item We have to traverse through the entire list to find anode with a specific value or find out that the data does not even exist in the list.
+        </li>
+        <li>
+            <strong>Insert</strong>
+            <br>
+            Let's say we wanted to add a train car somewhere else in the list.
+            <br>
+            We'd have to follow the pointers to that specific place and then update the pointers so that the previous train car points to our new train car and our new train car points to the next element.
+        </li>
     </ul>
+    <br>
+    <strong>linked list:</strong>the elements of a linked list are not stored at contiguous locations. Instead, we link the elements using pointers.
+    <br>
+    is a linear collection of data elements called nodes contain reference to the next node in the list Hold whatever data the application needs
+    <br>
+    <br>
+    <strong>node:</strong>contains data and a pointer to the next node the first item you add to the list called the head
 </details>
 <details>
     <summary><strong>Build a linked list in java</strong></summary>
@@ -557,7 +638,11 @@ public class MyClass {
     <summary><strong>Singly vs. doubly Linked lists</strong></summary>
     <strong>Singly Linked</strong> they only have a pointer pointing to the next node in the list. with only a next pointer you can only traverse forward through a list you cannot go backwards
     <br>
+    <strong>each item has point to the next item in the list</strong>
+    <br>
     <strong>doubly Linked</strong> we have a next and previous pointer and we can go through the list forward or backward
+    <br>
+    <strong>each item in the list has two pointers to the next and previous element </strong>
 </details>
 <details>
     <summary><strong>Lists in other languages</strong></summary>
@@ -597,6 +682,49 @@ public class MyClass {
         <li>Lists are resible arrays</li>
         <li>No built-in linked list implementaion</li>
     </ul>
+</details>
+<details>
+    <summary><strong>Proc and Cons of lists</strong></summary>
+    <strong>inserting and deleting</strong>
+    <br>
+    elements can be easily [inserted] and [removed] with O(1) performance
+    <br>
+    This is because linked lists have next pointers and do not need to be stored contiguously in memory
+    <br>
+    underlying memory doesn't need to be reorganized
+    <br>
+    <br>
+    <strong>Cons:</strong>
+    <br>
+    <ul>
+        <li>
+            <strong>Access</strong>
+            Can't do constant-time random item access
+            <br>
+            Item lookup[Access] is linear in time complexity (O(n))
+            <br>
+            because items don't have index or even keywords
+        </li>
+        <li>
+            <strong>Updating</strong>
+            take O(n) time
+            <br>
+            because we need to find the appropriate node and then update its value.
+        </li>
+        <li>
+            <strong>Searching and deleting</strong>
+            take linear, or O of N time in the worst case,
+            <br>
+            because we have to search for the element in order to find it, access it, and delete it
+        </li>
+    </ul>
+    <br>
+    Sorting: Merge sort is often preferred for sorting a linked list.
+    <br>
+    Other algorithms, such as quick sort and heap sort are not ideal because linked lists have slow, random access performance.
+    <br>
+    <br>
+    In random access, we should be able to say an index and get the item at that slot immediately, like in array.
 </details>
 
 ### Stacks and Queues

@@ -1,7 +1,7 @@
 ### Challenge
 
 <details>
-    <summary><strong>Quiz 1</strong></summary>
+    <summary><strong>Introduction to Data Structures Quiz</strong></summary>
     <strong>How do referenced types differ from primitive types?</strong>
     <br>
     Referenced types use pointers to addresses.
@@ -22,7 +22,7 @@
     long
 </details>
 <details>
-    <summary><strong>Quiz 2</strong></summary>
+    <summary><strong>Arrays Quiz</strong></summary>
     <strong>What is the output of the following JavaScript code?</strong>
     <br>
 
@@ -92,7 +92,7 @@ class Program
     with an index or key
 </details>
 <details>
-    <summary><strong>Quiz 3</strong></summary>
+    <summary><strong>Lists Quiz</strong></summary>
     <strong>What is returned by MyList.contains("Buy glue") if you are using java.util.LinkedList?</strong>
     <br>
     a Boolean
@@ -134,7 +134,7 @@ at the head of the list
     data and a pointer
 </details>
 <details>
-    <summary><strong>Quiz 4</strong></summary>
+    <summary><strong>Stack and Queues Quiz</strong></summary>
     <strong>How do queues differ from stacks?</strong>
     <br>
     Queues use FIFO and stacks use LIFO.
@@ -209,7 +209,7 @@ print(yourQueue.peek()!)
     the first item
 </details>
 <details>
-    <summary><strong>Quiz 5</strong></summary>
+    <summary><strong>Hash-Based Data Structures Quiz</strong></summary>
     <strong>Which language has the least support for hash functions and tables?</strong>
     <br>
     JavaScript
@@ -250,7 +250,7 @@ print(CapitalsToStates["New York"])
     Keys must be unique.
 </details>
 <details>
-    <summary><strong>Quiz 6</strong></summary>
+    <summary><strong>Trees and Graphs Quiz</strong></summary>
     <strong>Which statement is true for a tree data structure?</strong>
     <br>
     The root does not have a parent.
