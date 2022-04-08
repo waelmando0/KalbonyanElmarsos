@@ -1290,12 +1290,9 @@ print(letters)
     where each parent had a maximum of two direct child nodes
     <br>
     <strong>What makes a heap special?</strong>
+    Constrain
     <br>
     heaps are collection of objects, as we add items to the heap, they are always top to bottom, left to right
-    <br>
-    <strong>Constrain</strong>
-    <br>
-    As we add items to the heap, they are always added top to bottom, left to right.
     <br>
     We completely fill in the level before moving onto the next.
     <br>
