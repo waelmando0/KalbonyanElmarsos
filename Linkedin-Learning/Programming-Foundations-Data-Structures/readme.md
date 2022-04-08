@@ -1296,6 +1296,7 @@ print(letters)
     <br>
     We completely fill in the level before moving onto the next.
     <br>
+    <br>
     <strong>Priority Queue</strong>
     <br>
     <ul>
