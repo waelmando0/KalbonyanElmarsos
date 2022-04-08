@@ -1115,7 +1115,12 @@ But to access it we should use className.classVariable NOT just as a normal Var
 </details>
 <details>
 	<summary><strong>Interfaces</strong></summary>
-	<strong>Interface: </strong>(is a form of abstraction) it list of methods for a class to implement. It doesn't contain any actual behavior.
+	<strong>Interface: </strong>
+	<ul>
+		<li>(is a form of abstraction) it list of methods for a class to implement.</li>
+		<li>It doesn't contain any actual behavior.</li>
+		<li>you're not allowed to put any functionality inside an interface.</li>
+	</ul>
 	<br>
 	A class can implement multiple interfaces.
 	<br>
@@ -1139,6 +1144,9 @@ But to access it we should use className.classVariable NOT just as a normal Var
 <details>
 	<summary><strong>Aggregation</strong></summary>
 	<strong>Aggregation: </strong>is often referred to as a <strong>has a(has Many or Uses a or Uses Many) </strong> relationship like: the road has cars.
+	<br>
+	"Has a" relation ship  OR " Uses a" or "Uses many"
+	<br>
 	<br>
 	UML is:
 	<br>
@@ -1171,7 +1179,18 @@ But to access it we should use className.classVariable NOT just as a normal Var
 	<summary><strong>OOP support in different languages</strong></summary>
 	Typing = The data type of variables when declaration
 	<br>
-	<img src="https://manssorr.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe27539a8-e8b8-46a2-91bd-7780868e4e09%2FUntitled.png?table=block&id=82e2007d-7336-42f5-9e50-3f783f500069&spaceId=a3f51d20-62c5-408a-823f-471ed08ec100&width=2000&userId=&cache=v2">
+______________________________________________________________________________________________
+|  Language |  Inheritance  |  Call to super  |  Typing  |  interfaces  |  abstract classes  |
+|___________|_______________|_________________|__________|______________|____________________|
+|    java   |    single     |     Super       |  static  |    yes       |      yes           |
+|     C#    |    single     |     base        |  static  |    yes       |      yes           |
+|   python  |    multiple   |     Super       | dynamic  |Abstract class|      yes           |
+|   swift   |    single     |     Super       |  static  |   prototype  |      No            |
+|    C++    |    multiple   | name of class:: |  static  |Abstract class|      Yes           |
+|   Ruby    |    mixins     |      Super      |  dynamic |     n/a      |      n/a           |
+|javascript |   prototype   |      n/a        |  dynamic |     n/a      |      n/a           |
+|___________|_______________|_________________|__________|______________|____________________|
+
 </details>
 <details>
 	<summary><strong>General development principles</strong></summary>
