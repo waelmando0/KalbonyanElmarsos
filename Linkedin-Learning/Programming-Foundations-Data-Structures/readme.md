@@ -640,6 +640,7 @@ public class MyClass {
     <br>
     <strong>each item has point to the next item in the list</strong>
     <br>
+    <br>
     <strong>doubly Linked</strong> we have a next and previous pointer and we can go through the list forward or backward
     <br>
     <strong>each item in the list has two pointers to the next and previous element </strong>
@@ -684,7 +685,7 @@ public class MyClass {
     </ul>
 </details>
 <details>
-    <summary><strong>Proc and Cons of lists</strong></summary>
+    <summary><strong>Pros and Cons of lists</strong></summary>
     <strong>inserting and deleting</strong>
     <br>
     elements can be easily [inserted] and [removed] with O(1) performance
@@ -732,7 +733,34 @@ public class MyClass {
     <summary><strong>What are stacks</strong></summary>
     <strong>Stacks</strong> is an ordered series of objects just like a list but its intended use is slightly different we push objectives on to the stack and pop objects off of it
     <br>
-    <strong>(LIFO)</strong> Last in, First out
+    collection that support push and pop operations
+    <br>
+    stacks are great for programs where you need to reverse things
+    <br>
+    Stacks are also good for keeping track of state as things are pushed on and popped off the stacks
+    <br>
+    <strong>(LIFO)</strong> Last in, First out -> The last item pushed is the first one popped
+    <br>
+    <br>
+    if you wanted to add or remove from the bottom of the stack, you would have to lift the entire stack in order to add that item.
+    <br>
+    This is why for stacks we add and remove from the top.
+    <br>
+    <br>
+    <strong>stacks Uses</strong>
+    <br>
+    <ul>
+        <li>Expression processing </li>
+        <li>Backtracking: browser back stack, for example Error tracing </li>
+    </ul>
+    <br>
+    <strong> Stacks are great for </strong>
+    <br>
+    <ul>
+        <li>Reversing things </li>
+        <li>Keeping track ot state </li>
+        <li>Add/remove from the back of structure </li>
+    </ul>
 </details>
 <details>
     <summary><strong>Implement stacks in swift</strong></summary>
@@ -811,9 +839,14 @@ public class MyClass {
     <summary><strong>What are queues?</strong></summary>
     <strong>Queues</strong> it is designed to have elements inserted at the end of the queue and elements removed from the beginning of the queue
     <br>
+    collection that supports adding and removing - follow FIFO  rule - first in first out - first item added is the first item out
+    <br>
+    <br>
     <strong>Enqueue</strong> is when an item is added to a list
     <br>
     <strong>Dequeue</strong> is when an item is removed from the list
+    <br>
+    <strong>Peek</strong>See the first item in the queue without removing it
 </details>
 <details>
     <summary><strong>Implement queues in swift</strong></summary>
@@ -899,13 +932,25 @@ print(myQueue.peek()!)
 </details>
 <details>
     <summary><strong>Specialized queues</strong></summary>
-    <strong>Priority Queue</strong> Each element has a priority associated with it
+    <strong>Priority Queue</strong>
+    <br>
+    <ul>
+        <li>Each element has a priority associated with it</li>
+        <li>if you add multiple items that have the same priority, they will queue as normal first-in, first-out order Not supported in all languages </li>
+    </ul>
     <br>
     Java has priority queues
     <br>
     C++ has a priority container
     <br>
-    <storng>D-E-Q-U-E-K -> Double-ended queue</storng> is like having a stack and a queue at the same time
+    <br>
+    <storng>D-E-Q-U-E-K -> Double-ended queue</storng>
+    <ul>
+        <li>double-ended queue is like having a stack and a queue at the same time.</li>
+        <li>have a collection of items and we can add new items to this, but we can choose to add and remove from either end.</li>
+        <li>restriction is we can't remove from anywhere else in the collection. </li>
+    </ul>
+    <br>
     <br>
     Items can be added or removed from either end
     <br>
@@ -925,6 +970,7 @@ print(myQueue.peek()!)
         <li>Python has a class</li>
         <li>No option in Ruby or .NET, but you can use linked lists or dynamic arrays as alternatives</li>
     </ul>
+
 </details>
 <details>
     <summary><strong>Pros and cons of stacks and queues</strong></summary>
