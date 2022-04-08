@@ -1186,6 +1186,27 @@ print(statusToCapitals["New York"])
         <li>Array (linear search)</li>
         <li>Linked list (travers)</li>
     </ul>
+    <br>
+    <br>
+    <strong>Why use sets ?</strong>
+    <br>
+    sets are a way of grouping things with a common property.
+    <br>
+    <strong>Implementation</strong>
+    <br>
+    sets are actually using the same idea of hash tables most of the time.
+    <br>
+    Instead of hashing a key to store a separate value object, when you're using a set, the key is the value.
+    <br>
+    We don't have two pieces of information, we're just adding one.
+    <br>
+    So a set works by taking an object, hashing it, and then using the generated index to store the object itself.
+    <br>
+    Then, to check membership, to find out if we already know about a particular object, we just repeat the process and see if this object is already stored.
+    <br>
+    We only care about membership, if the object is already in the set.
+    <br>
+    In checking to see if an object is in the set, we already need to have the object itself,which is why we never use sets for retrieval of data.
 </details>
 <details>
     <summary><strong>Sets in Python?</strong></summary>
@@ -1207,9 +1228,15 @@ print(letters)
 </details>
 <details>
     <summary><strong>Introduction to tree data structures</strong></summary>
-    Child nodes with the same parent are siblings
+    <strong>A tree data structure </strong>
     <br>
-    A node with no children is a leaf
+    Like a linked list, a tree data structure contains nodes but it's really a collection of nodes.
+    <br>
+    The main difference is that the nodes in the tree might be linked to one, two or more nodes.
+    <br>
+    the root is the parent of both of these child nodes and the root itself has no parent.
+    <br>
+    child nodes with the same parent are siblings
     <br>
     <br>
     <strong>What Each Node Can have</strong>
@@ -1221,7 +1248,11 @@ print(letters)
     </ul>
     <br>
     <br>
-    <img src="https://lh5.googleusercontent.com/zQ8iFEPd3u2oX__Sm3Gl4pcJTrrnCsUr6Ji8arQ70eu6oO1tnTlIdIZaYSR4x7T9YChDEhECTBsTSntW8FFc=w1366-h625-rw">
+    <strong>Pros: </strong>
+    <br>
+    If your data has an order and you will be inserting, deleting, searching and accessing items a lot, then binary search trees are great.
+    <br>
+    <img src="https://drive.google.com/file/d/1JbJWDkD0fItOcHSGMu69jnFws9J-IuIM/view?usp=sharing">
 </details>
 <details>
     <summary><strong>Understanding binary search trees</strong></summary>
