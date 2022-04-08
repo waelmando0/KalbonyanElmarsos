@@ -458,10 +458,12 @@ brew(coffee, tea, water) → cupOfSomething
 ### Use Cases and User Stories
 <details>
 	<summary><strong>Use cases</strong></summary>
+	<strong>Use Cases: </strong>shifting focus towards the user and how they accomplish a particular goal a use case needs three essential things
+	<br>
 	<ul>
 		<li><strong>Title: </strong>What is the goal?</li>
-		<li><strong>Primary Actor: </strong>Who desires it?</li>
-		<li><strong>Success Scenario: </strong>How is it accomplished?</li>
+		<li><strong>Primary Actor: </strong>Who desires it? (the person or system that will use the program)</li>
+		<li><strong>Success Scenario: </strong>How is it accomplished? (the steps)</li>
 	</ul>
 	<strong>Additional Details</strong>
 	<ul>
@@ -501,10 +503,33 @@ brew(coffee, tea, water) → cupOfSomething
 	<summary><strong>Identifying the actors</strong></summary>
 	Start thinking about the peoples who maybe use your system "If it multiple users system". (User Icon)
 	<br>
+	who will interact with the program
+	<br>
 	Thinking about another systems or organizations which need to connect with your system. (Systems = Box)
+	<br>
+	Notice that  the program could have multiple people interacting with it to accomplish different goals.
+	<br>
+    Thinking about their different job titles or departments can also prompt ideas for use case scenarios.
+	<br>
+	yoou should also ask does the application need to interact with other computer systems or other organizations?
+	<br>
+    Those external systems are considered actors too.
+	<br>
+	But keep in mind that the same person with the same role and job title could actually be different actors at different times.
+	<br>
+    The focus should really be on the goal that the actor wants to accomplish, and how we define those actors can vary depending on the use case.
+	<br>
+    the primary actors in scenario aren't necessarily the most important actor in the scenario They're just the one who initiated it
 </details>
 <details>
 	<summary><strong>Identifying the scenarios</strong></summary>
+	describe a goal that an actor can accomplish in a single encounter and stay focused on the user's intention what they really want to accomplish.
+	<br>
+	<br>
+	write your scenario either as a paragraph or a list of steps The goal is readability and ease of creation over formality.
+	<br>
+    don't put the verbs that will accomplish the goal put the goal it self omit needless words
+    don't use words like screen, click, button , select
 	<strong>User-Focused Goals</strong>
 	<ul>
 		<li>Cook meal</li>
@@ -540,6 +565,14 @@ brew(coffee, tea, water) → cupOfSomething
 <details>
 	<summary><strong>User stories</strong></summary>
 	User story is simpler than use case, it's focus only on small scenario from the user perspective and focusing only on his goal. As a (type of user) I want (goal) so that (reason)
+	<br>
+	still describes a single small scenario from a user's perspective, focusing on their goal. what they want to do and why rather than focusing on the system.
+	<br>
+	But unlike a use case, which can be several pages,
+	<br>
+	a user story is typically written as just one, perhaps two, sentences and they're very commonly written on index cards because that forces us to keep them short and sweet.
+	<br>
+	the focus is on intent and should not include descriptions of the user interface. these are intended to be quick, readable summaries of a specific goal and why the user wants it.
 	<ul>
 		<li>
 			As an astronaut - I want to heat up my food - So that I can get eat a warm meals
@@ -697,6 +730,10 @@ brew(coffee, tea, water) → cupOfSomething
 
 <details>
 	<summary><strong>Identifying the objects</strong></summary>
+	- After defining requirements and writing some use cases or user stories we start to transition from analysis, understanding the problem we're trying to solve, to design, how we're going to organize our solution.
+  	<br>
+	- with the analysis done, our next step is to create a conceptual model.
+	<br>
 	<strong>Conseptual Model: </strong> Represents important objects and the relationships between them
 	<br>
 	This model is done after analysis phase (Use cases & user stories)
@@ -704,6 +741,10 @@ brew(coffee, tea, water) → cupOfSomething
 	at this point we pick all our system objects and every thing we should be aware of
 	<br>
 	To get the objects we go back to the use cases and the user stories then pick all of the nouns
+	<br>
+	To identify objects we'll go through all of our use cases and user stories and any other written requirements to pick out all of the nouns.
+	<br>
+  	after defining the objects we simply drawing a box around each of those objects we have the beginning of a conceptual model.
 	<br>
 	<img src="https://manssorr.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F49dabb74-ffff-418a-8a72-26ed2a6c2f72%2FUntitled.png?table=block&id=245bc35e-55d3-468a-9c94-ad0ac25290db&spaceId=a3f51d20-62c5-408a-823f-471ed08ec100&width=1410&userId=&cache=v2" alt="img" title="image Title" />
 	<br>
@@ -716,13 +757,23 @@ brew(coffee, tea, water) → cupOfSomething
 	<summary><strong>Identifying class relationships</strong></summary>
 	Now after pick the class to the conceptual model we need to identify the relations between them with draw lines between them
 	<br>
+	Once we have the potential objects picked out for our conceptional model, it's useful to indicate the main relationships or associations between those concepts by drawing lines between the boxes.
+	<br>
+  	Now, optionally, it may be useful to add a short note to actually describe the relationship.
+	<br>
 	then write down a work which describe the relation between them
+	<br>
+	The benefit of detailing these relationships is that it makes it easier to realize which objects interact with each other, meaning which objects have behaviors that affect other objects.
 	<br>
 	<img src="https://manssorr.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc8de4732-2f75-4e01-91dd-dbae99478af4%2FUntitled.png?table=block&id=e6999521-f2a8-4c38-9be2-7af49e9e5e64&spaceId=a3f51d20-62c5-408a-823f-471ed08ec100&width=1130&userId=&cache=v2"  alt="img" title="image Title">
 </details>
 <details>
 	<summary><strong>Identifying class responsibilities</strong></summary>
 	Now we need to know each class (object) responsibilities, so we back to use cases and user stories then searching this time for verbs only
+	<br>
+	We need to figure out the responsibilities for our conceptual objects to really identify what are, and what are not classes that we'll need to create.
+	<br>
+	We will go back to the user stories and  look for verbs, and verb phrases to identify responsibilities.
 	<br>
 	<img src="https://manssorr.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5dd78045-b45e-4714-815d-4e855a5ebae7%2FUntitled.png?table=block&id=cd0ebe73-edb0-4a3f-a2f5-383d27da213c&spaceId=a3f51d20-62c5-408a-823f-471ed08ec100&width=1390&userId=&cache=v2" alt="img" title="image Title">
 	<br>
@@ -748,6 +799,15 @@ brew(coffee, tea, water) → cupOfSomething
 	<summary><strong>CRC Cards</strong></summary>
 	<br>
 	<strong>CRC: </strong>Class Responsibilities Collaboration
+	<br>
+	<strong>Each CRC cards represents one class</strong>
+	<ul>
+		<li>it has three sections. The first section is the name of the class at the top, which is usually underlined.</li>
+		<li>The Right section  is the Responsibilities of the class, the things that it needs to take care of.</li>
+		<li>The left section  is for the Collaborators, the other classes it interacts with.</li>
+	</ul>
+	<br>
+	CRC cards typically use this format with the responsibilities taking up the left two-thirds of the card, and the collaborators on what's remaining to the right.
 	<br>
 	<strong>CRH: </strong>Component Responsibilities Helper
 	<br>
