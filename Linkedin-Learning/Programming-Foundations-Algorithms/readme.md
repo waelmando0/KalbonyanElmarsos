@@ -831,7 +831,7 @@ print(result)
 ```
 </detials>
 
-<details>
+<detials>
     <summary><strong>value counting with hash tables</strong></summary>
 
 ```
@@ -859,7 +859,7 @@ print(counter)
 <br>
 <img src="https://lh3.google.com/u/2/d/1D98Rztw5cIIIaY06bgjMafbuz-5D6noB=w1366-h625-iv1">
 
-</details>
+</detials>
 
 <details>
     <summary><strong>find max value recursively</strong></summary>
