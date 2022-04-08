@@ -734,6 +734,7 @@ brew(coffee, tea, water) → cupOfSomething
   	<br>
 	- with the analysis done, our next step is to create a conceptual model.
 	<br>
+	<br>
 	<strong>Conseptual Model: </strong> Represents important objects and the relationships between them
 	<br>
 	This model is done after analysis phase (Use cases & user stories)
@@ -806,8 +807,8 @@ brew(coffee, tea, water) → cupOfSomething
 		<li>The Right section  is the Responsibilities of the class, the things that it needs to take care of.</li>
 		<li>The left section  is for the Collaborators, the other classes it interacts with.</li>
 	</ul>
-	<br>
 	CRC cards typically use this format with the responsibilities taking up the left two-thirds of the card, and the collaborators on what's remaining to the right.
+	<br>
 	<br>
 	<strong>CRH: </strong>Component Responsibilities Helper
 	<br>
@@ -862,6 +863,27 @@ brew(coffee, tea, water) → cupOfSomething
 			</ul>
 		</li>
 	</ul>
+	<br>
+	<br>
+	<strong>Behavior</strong>  they're usually named as short verb phrases.
+	<br>
+	it's common practice to name methods that modify and retrieve attributes as get instant operations rather than things like change or retrieve.
+	<br>
+  	And some languages will even automatically generate getter and setter methods for you.
+	<br>
+	<br>
+	 You'll commonly see plus and minus signs before the attributes and methods in UML class diagrams.
+	<br>
+	Which is referred to as controlling visibility.
+	<br>
+	Minus indicates that a member should be private to the class, meaning it's not directly accessible by other objects.
+	<br>
+  	plus means the member should be public.
+	<br>
+	<br>
+	The rule here is to leave as many attributes and methods private as possible, and only make something public if you know another object will need to use it.
+	<br>
+	Your focus should really be on what object do rather than just viewing them as data structures.
 </details>
 <details>
 	<summary><strong>Creating class diagrams: Behaviors</strong></summary>
