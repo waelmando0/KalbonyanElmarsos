@@ -1141,6 +1141,21 @@ print(statusToCapitals["New York"])
     </ul>
     <br>
     Hash tables are excellect at managing many key-value pairs and volatile data
+    <br>
+    for small datasets, arrays are usually more efficient hash tables don't order entries in predictable way
+    <br>
+    <strong>Advantages:</strong>
+    <br>
+    <ul>
+        <li>every item have a key. </li>
+        <li>a key that allows us to access our data in a meaningful way.</li>
+        <li>Key-value pair are bound together.</li>
+        <li>key-to-value mapping are unique.</li>
+        <li>value do not accessed with the key.</li>
+        <li>Keys are mapped to data values by using a hash to compute an index value.</li>
+        <li>hash tables are typically are usually more efficient.</li>
+        <li>Order Isn't important.</li>
+    </ul>
 </details>
 
 ### Trees and Graphs
