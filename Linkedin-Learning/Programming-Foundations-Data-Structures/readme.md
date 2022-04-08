@@ -1252,10 +1252,16 @@ print(letters)
     <br>
     If your data has an order and you will be inserting, deleting, searching and accessing items a lot, then binary search trees are great.
     <br>
-    <img src="https://drive.google.com/file/d/1JbJWDkD0fItOcHSGMu69jnFws9J-IuIM/view?usp=sharing">
+    <img src="https://lh5.googleusercontent.com/xXGyjNx1cEcnblkhT7wgGVm2nRS2_eJgx_sAE-dh896H_99eR_kbwv5BKOqhDhyEPDLflb3Q_zhK9rIptZIm=w1366-h625-rw">
 </details>
 <details>
     <summary><strong>Understanding binary search trees</strong></summary>
+    <strong>A binary tree is</strong>
+    <ul>
+        <li>a specialized type of tree. </li>
+        <li>It adds the constraint that each node has two immediate child nodes. </li>
+        <li>We call the child nodes left and right nodes respectively.</li>
+    </ul>
     Binary search trees are used to implement another data structure
     <br>
     <ul>
@@ -1264,16 +1270,34 @@ print(letters)
         <li>Java: TreeMap implemented with a red-black tree</li>
         <li>Javascript, Ruby, Python: Third-party implementations available</li>
     </ul>
+    <br>
+    <strong>A binary search tree (BST)</strong>
+    <br>
+    we keep track of order and keep a sorted data structure by being particular about what values are in the left child, right child, and parent nodes.
+    <br>
+    <br>
+    <strong>the rules</strong>
+    <br>
+    <ul>
+        <li>A left child node must be less than its parent </li>
+        <li>A right child node must be more than its parent.</li>
+    </ul>
 </details>
 <details>
     <summary><strong>Understand Heaps</strong></summary>
     <strong>Heap:</strong> A data structure implemented as a binary tree
     <br>
-    binary tree is where each parent had a maximum of two direct child nodes
+    where each parent had a maximum of two direct child nodes
     <br>
     <strong>What makes a heap special?</strong>
     <br>
     heaps are collection of objects, as we add items to the heap, they are always top to bottom, left to right
+    <br>
+    <strong>Constrain</strong>
+    <br>
+    As we add items to the heap, they are always added top to bottom, left to right.
+    <br>
+    We completely fill in the level before moving onto the next.
     <br>
     <strong>Priority Queue</strong>
     <br>
