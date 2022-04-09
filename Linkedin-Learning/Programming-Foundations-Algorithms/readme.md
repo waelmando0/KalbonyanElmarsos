@@ -441,11 +441,11 @@ for key, value in items2.item():
         <li>This is called the  "call stack"</li>
     </ul>
     <br>
-    <img src="https://drive.google.com/file/d/1ZZ042-FvI8QyrrUJVR_NKcF7N9u0dmHC/view?usp=sharing">
+    <img src="https://lh6.googleusercontent.com/9vamgmMlkD67P4aNsQh4opHkiuxTLW4tK6aiVTdkFD6n9EqH0bHnhX6cbZvU49sv4kWjL2irV1qEPuWbRdoQ=w1366-h441-rw">
 </details>
 <details>
     <summary><strong>Simple recursion example</strong></summary>
-    <img src="https://drive.google.com/file/d/14S-f-int5Nms2aEObForQkEW03bVafCS/view?usp=sharing">
+    <img src="https://lh3.googleusercontent.com/JhSdtWAFdg-EWfYIkMIrVP2o13VB0WEtWoLkkdIH17JAexFWbJtMbfsmY5cjVxX_tcNLTEBIImQZn90x4FoO=w1366-h441-rw">
     <br>
 
 ```
@@ -560,7 +560,7 @@ if __name__ == "__main__":
     main()
 ```
 <br>
-<img src="https://drive.google.com/file/d/1B6ikTHl_Cy3q0MZMRXlVM-EhiizZQOWT/view?usp=sharing">
+<img src="https://lh6.googleusercontent.com/e42kXYSUbLpdSJ8LTPGPBlhmLCU2ogOXTpLUJ_AhF_kMz8qUXAuQ_5K8D9GI-eqtxFXSnSqHz6xvnxv_b5y5=w1366-h441-rw">
 </details>
 
 <details>
@@ -624,7 +624,7 @@ mergesort(items)
 print(items)
 ```
 <br>
-<img src="https://drive.google.com/file/d/1j3TsyetgK_j3mC0DN-6tvbFfm6R6Q786/view?usp=sharing">
+<img src="https://lh3.googleusercontent.com/ZjPXPZuuF4e8Wh9TY5AsZzCV8bcSZdcXTovVO3UR3itEFa7rOYNFm0Ue86DcT1To59OzapLtyiHufSHNzAbV=w1366-h441-rw">
 </details>
 
 <details>
@@ -701,7 +701,7 @@ quickSort(items, 0, len(items)-1)
 print(items)
 ```
 <br>
-<img src="https://drive.google.com/file/d/1njQ9T01jtRDSDeragm71gLlNlD95vCEg/view?usp=sharing">
+<img src="https://lh6.googleusercontent.com/qPqls3sSBpgSGVWJmv7O_MC0miAIZGZoh0xZB1QIT3ggqyd7A-OZjrv32l2r8TY1o3_JGpxL55dqxRLfTCDT=w1366-h441-rw">
 </details>
 
 ### Searching Data
@@ -767,7 +767,7 @@ print(binarysearch(87, items))
 print(binarysearch(250, items))
 ```
 <br>
-<img src="https://drive.google.com/file/d/1vz2-u1tI5e7vgfnEUQKbzMcVrs-i-DJ-/view?usp=sharing">
+<img src="https://lh3.googleusercontent.com/Lurb-EwABPmEEuw_Ca12O68GXni3jshHpc3pPOaq5bggOLPEAjuloPHLJITlS_WuqWIz5lXpKNivmqZr9Kxm=w1366-h441-rw">
 
 ```
 With a sorted list, we can perform a type of search is called a binary search. So, let's
@@ -858,7 +858,7 @@ for item in items:
 print(counter)
 ```
 <br>
-<img src="https://drive.google.com/file/d/1D98Rztw5cIIIaY06bgjMafbuz-5D6noB/view?usp=sharing">
+<img src="hhttps://lh5.googleusercontent.com/AA90kcc4EqA3kJq15_kYIogsfSA77o78qIDghLRKdb9k0kWp4OjFc8G7RnjKtm9X5Ax9SD5qUe79Befucj-e=w1366-h625-rw">
 
 </details>
 
