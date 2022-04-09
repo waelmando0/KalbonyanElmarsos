@@ -806,7 +806,8 @@ print(is_sorted(items2))
 </details>
 
 ### Other Algorithms
-<detials>
+
+<details>
     <summary><strong>unique filtering with hash tables</strong></summary>
 
 ```
@@ -829,7 +830,7 @@ for key in items:
 result = set(filter.keys())
 print(result)
 ```
-</detials>
+</details>
 
 <detials>
     <summary><strong>value counting with hash tables</strong></summary>
