@@ -864,7 +864,7 @@ print(counter)
 
 <details>
     <summary><strong>find max value recursively</strong></summary>
-<img src="https://drive.google.com/file/d/1IOzpUdMLH612phbmLtNGTm0l3cQGFBBC/view?usp=sharing">
+<img src="https://lh6.googleusercontent.com/-C_jzv1cvw1vZI23YDy75y6z4lqFwkjRoogTY-5OrazlErDDCkVgPu8tENCCM4c56y47-MxFNIAdiBzUwKgY=w1366-h625-rw">
 <br>
 
 ```
