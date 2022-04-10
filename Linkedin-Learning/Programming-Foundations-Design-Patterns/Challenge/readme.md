@@ -157,5 +157,5 @@ while let animal = animalIterator.next() {
     <br>
     <strong>With the Factory Method pattern, which process is implemented with the abstract superclass "PizzaStore," and derived down to the subclasses "PizzaStores"?</strong>
     <br>
-    Every algorithm is used by the subclasses from the superclass.
+    Every algorithm is used by the subclasses from the superclass.gg
 </details>
