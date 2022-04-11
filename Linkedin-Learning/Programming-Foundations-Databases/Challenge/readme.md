@@ -351,7 +351,7 @@ Each keyword, SELECT and FROM, defines a single clause.
     The primary key will add a unique value for each row, and thus eliminate the repeating duplicate rows issue.
 </details>
 
-<detials>
+<details>
     <summary><strong>Querying a Database Quiz1</strong></summary>
     <strong>What is the foreign key in the table created after this command?</strong>
 
@@ -515,9 +515,9 @@ The purchase amounts will grow over time and add up to a very large sum.
 It may update undesired records.
 <br>
 Without a WHERE condition, this query will update all records including possibly undesired ones.
-</detials>
+</details>
 
-<detials>
+<details>
     <summary><strong>Querying a Database Quiz2</strong></summary>
     <strong>Which database is often used in a big data context?</strong>
     <br>
@@ -571,4 +571,4 @@ Without a WHERE condition, this query will update all records including possibly
     a group of statements that runs or fails as a whole
     <br>
     Transactions combine multiple statements into a single logical block, where one failing statement rolls back the entire action.
-</detials>
+</details>
