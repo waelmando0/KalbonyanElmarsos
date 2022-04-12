@@ -17,4 +17,12 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 [7] - [Programming Foundations: Databases](https://github.com/waelmando0/KalbonyanElmarsos/tree/master/Linkedin-Learning/Programming-Foundations-Databases)
 
+
+[8] - [Programming Foundations: Apis and Web Services](https://github.com/waelmando0/KalbonyanElmarsos/tree/master/Linkedin-Learning/Programming-Foundations-Apis-and-Web-Services)
+
+
+[9] - [Programming Foundations: Software Testing Qa](https://github.com/waelmando0/KalbonyanElmarsos/tree/master/Linkedin-Learning/Programming-Foundations-Software-Testing-Qa)
+
+
+
 <!-- <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-24h27m-blue"> -->
