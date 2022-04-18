@@ -252,6 +252,11 @@ bmw.getFuelPercentage()
 		<strong>Dynamic Polymorphism: </strong>Uses the same interface for methods on different types of objects that may implement those method in different ways
 		<br>
 		<br>
+		<ul>
+			<li>Polymorphism means one name, many forms</li>
+			<li>One function behaves in different forms, In other words, "Many forms of a single object is called Polymorphism"</li>
+		</ul>
+		<br>
 		<strong>Method Overriding:</strong> is change one or more methods from the superClass with the same name to take the same input but change the function itself.
 		<br>
 		<strong>Creating a unique version of an inherited method.</strong>
