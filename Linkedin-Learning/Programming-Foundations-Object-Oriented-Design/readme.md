@@ -145,6 +145,11 @@ Feel = new Feel(3, "white", false)
 		<summary><strong>Encapsulation</strong></summary>
 		<strong>Encapsulation:</strong> is the packing of data and functions into one component (for example, a class) and then <strong>controlling access to that component to make a "blackbox" out of the object.</strong>
 		<br>
+		<ul>
+			<li>Wrapping up a data and method together into a single unit (in other words class) is called Encapsulation</li>
+			<li>Encapsulation is like enclosing in a capsule. That is enclosing the related operations and data related to an object into that object</li>
+		</ul>
+		<br>
 		<br>
 		the purpose of encapsulation is to protect an object from unwanted changes
 		<br>
@@ -193,6 +198,11 @@ bmw.getFuelPercentage()
 		Abstraction means we focus on the essential qualities of something rather than one specific example. By using abstraction, we automatically discard what's unimportant or irrelevant.
 		<br>
         Hiding unnecessary details and functionalities and only showing what is important to work is an abstraction.
+        <br>
+		<ul>
+			<li>Abstruction is "To represent the essentail feature without representing the background details" </li>
+			<li>Abstruction lets you focus on what the object does instead of how it does it</li>
+		</ul>
         <br>
         <br>
         refers to “showing” only the essential attributes of something and “hiding” any implementation information that is unnecessary to the user.
@@ -285,7 +295,7 @@ brew(coffee, tea, water) → cupOfSomething
 			<li>2. Describe the application ( Plain text of how the people will use it)</li>
 			<li>3. Identify the main object (The start point of making the classes)</li>
 			<li>
-				4. Describe the interactions between them
+				1. Describe the interactions between them
 				<ul>
 					<li>1. Understanding each object responsibilities.</li>
 					<li>2. The behaviors they need to have.</li>
