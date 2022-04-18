@@ -145,11 +145,11 @@ Feel = new Feel(3, "white", false)
 		<summary><strong>Encapsulation</strong></summary>
 		<strong>Encapsulation:</strong> is the packing of data and functions into one component (for example, a class) and then <strong>controlling access to that component to make a "blackbox" out of the object.</strong>
 		<br>
+		<br>
 		<ul>
 			<li>Wrapping up a data and method together into a single unit (in other words class) is called Encapsulation</li>
 			<li>Encapsulation is like enclosing in a capsule. That is enclosing the related operations and data related to an object into that object</li>
 		</ul>
-		<br>
 		<br>
 		the purpose of encapsulation is to protect an object from unwanted changes
 		<br>
@@ -199,11 +199,11 @@ bmw.getFuelPercentage()
 		<br>
         Hiding unnecessary details and functionalities and only showing what is important to work is an abstraction.
         <br>
+        <br>
 		<ul>
 			<li>Abstruction is "To represent the essentail feature without representing the background details" </li>
 			<li>Abstruction lets you focus on what the object does instead of how it does it</li>
 		</ul>
-        <br>
         <br>
         refers to “showing” only the essential attributes of something and “hiding” any implementation information that is unnecessary to the user.
         <br>
