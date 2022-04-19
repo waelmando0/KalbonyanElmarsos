@@ -131,6 +131,35 @@ Feel = new Feel(3, "white", false)
 		</ul>
 </details>
 <details>
+	<summary><strong>Class Vs. Object</strong></summary>
+	<table>
+		<tr>
+			<td>Object</td>
+			<td>Class</td>
+		</tr>
+		<tr>
+			<td>Object is an instance of a class</td>
+			<td>Class is a blueprint or template from which objects are created</td>
+		</tr>
+		<tr>
+			<td>Object is a real world entity such as pen, laptop, mobile, keyboard</td>
+			<td>Class is a grouping of similar object</td>
+		</tr>
+		<tr>
+			<td>Object is a phusical entity</td>
+			<td>Class is logical entity</td>
+		</tr>
+		<tr>
+			<td>Object is created many times as per requirement</td>
+			<td>Class is declared once</td>
+		</tr>
+		<tr>
+			<td>Object allocates memory when it is created</td>
+			<td>Class doesn't allocated memory when it is created</td>
+		</tr>
+	</table>
+</details>
+<details>
 		<summary><strong>Four Principles of OOP</strong></summary>
 		there are four fundamentals ideas in object oriented programming to keep in your
 		mind when creating classes
